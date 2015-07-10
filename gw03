@@ -1,0 +1,12 @@
+tech-c:
+  - ffbs-admin@stratum0.net
+asn: 65380
+networks:
+  ipv4:
+    - 10.38.0.0/16
+  ipv6:
+    - 2001:bf7:380::/44
+bgp:
+  gw03:
+    ipv4: 10.38.0.3
+    ipv6: 2001:bf7:380::3
